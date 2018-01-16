@@ -1,0 +1,354 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "fce8541b-218b-43cd-8375-ed8dbf10f48a": {
+                "size": {
+                    "width": 510,
+                    "height": 510
+                },
+                "position": {
+                    "x": 60,
+                    "y": 90
+                },
+                "z": 1,
+                "embeds": [
+                    "b48744a9-8773-4b56-b640-8e2126c75f3f"
+                ]
+            },
+            "8c7148ec-f063-49c3-91d4-11c715a6dc28": {
+                "size": {
+                    "width": 330,
+                    "height": 240
+                },
+                "position": {
+                    "x": 70,
+                    "y": 70
+                },
+                "z": 0,
+                "embeds": [
+                    "b1af314f-489d-4b03-8dd0-110427956c1f",
+                    "d56f52f0-a8cc-4b45-a38a-4729fc8bee5c"
+                ],
+                "iscontainedinside": [
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a"
+                ]
+            },
+            "b1af314f-489d-4b03-8dd0-110427956c1f": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 100,
+                    "y": 130
+                },
+                "z": 3,
+                "parent": "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                "embeds": [],
+                "iscontainedinside": [
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28"
+                ]
+            },
+            "d56f52f0-a8cc-4b45-a38a-4729fc8bee5c": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 220,
+                    "y": 110
+                },
+                "z": 3,
+                "parent": "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                "embeds": [],
+                "iscontainedinside": [
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28",
+                    "8c7148ec-f063-49c3-91d4-11c715a6dc28"
+                ]
+            },
+            "b48744a9-8773-4b56-b640-8e2126c75f3f": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 90,
+                    "y": 450
+                },
+                "z": 2,
+                "parent": "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                "embeds": [],
+                "iscontainedinside": [
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a",
+                    "fce8541b-218b-43cd-8375-ed8dbf10f48a"
+                ],
+                "dependson": [
+                    "d56f52f0-a8cc-4b45-a38a-4729fc8bee5c",
+                    "b1af314f-489d-4b03-8dd0-110427956c1f"
+                ]
+            },
+            "5d3580ad-922c-4b64-95a7-8c76e0d59d6b": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 630,
+                    "y": 90
+                },
+                "z": 1,
+                "embeds": []
+            }
+        }
+    },
+    "Parameters": {
+        "ResourcePath": {
+            "Description": "Enter the name or path of the new resource",
+            "Type": "String"
+        },
+        "RestAPIName": {
+            "Description": "Enter an API to be created",
+            "Type": "String"
+        },
+        "deploymentStageName": {
+            "Description": "Enter the name of the stage where it needs to get deployed",
+            "Type": "String"
+        },
+        "Lamdafn1": {
+            "Description": "Choose the lambda fn ARN",
+            "Type": "String",
+            "AllowedValues": [
+                "arn:aws:lambda:us-east-2:456214169279:function:test-am",
+                "arn:aws:lambda:us-east-2:456214169279:function:insert-music"
+            ]
+        }
+    },
+    "Resources": {
+        "LambdaPermission": {
+            "Type": "AWS::Lambda::Permission",
+            "Properties": {
+                "Action": "lambda:invokeFunction",
+                "FunctionName": "arn:aws:lambda:us-east-2:456214169279:function:test-am",
+                "Principal": "apigateway.amazonaws.com",
+                "SourceArn": {
+                    "Fn::Join": [
+                        "",
+                        [
+                            "arn:aws:execute-api:",
+                            {
+                                "Ref": "AWS::Region"
+                            },
+                            ":",
+                            {
+                                "Ref": "AWS::AccountId"
+                            },
+                            ":",
+                            {
+                                "Ref": "singleAPI"
+                            },
+                            "/*"
+                        ]
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "5d3580ad-922c-4b64-95a7-8c76e0d59d6b"
+                }
+            }
+        },
+        "singleAPI": {
+            "Type": "AWS::ApiGateway::RestApi",
+            "Properties": {
+                "Name": {
+                    "Ref": "RestAPIName"
+                },
+                "Description": "basic api from cloud formation template using parameters",
+                "FailOnWarnings": true
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "fce8541b-218b-43cd-8375-ed8dbf10f48a"
+                }
+            }
+        },
+        "firstResource": {
+            "Type": "AWS::ApiGateway::Resource",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "singleAPI"
+                },
+                "ParentId": {
+                    "Fn::GetAtt": [
+                        "singleAPI",
+                        "RootResourceId"
+                    ]
+                },
+                "PathPart": {
+                    "Ref": "ResourcePath"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "8c7148ec-f063-49c3-91d4-11c715a6dc28"
+                }
+            }
+        },
+        "GETMethod": {
+            "Type": "AWS::ApiGateway::Method",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "singleAPI"
+                },
+                "ResourceId": {
+                    "Ref": "firstResource"
+                },
+                "HttpMethod": "GET",
+                "AuthorizationType": "NONE",
+                "Integration": {
+                    "Type": "AWS",
+                    "IntegrationHttpMethod": "POST",
+                    "Uri": {
+                        "Fn::Join": [
+                            "",
+                            [
+                                "arn:aws:apigateway:",
+                                {
+                                    "Ref": "AWS::Region"
+                                },
+                                ":lambda:path/2015-03-31/functions/",
+                                "arn:aws:lambda:us-east-2:456214169279:function:test-am",
+                                "/invocations"
+                            ]
+                        ]
+                    },
+                    "IntegrationResponses": [
+                        {
+                            "StatusCode": 200
+                        }
+                    ]
+                },
+                "MethodResponses": [
+                    {
+                        "StatusCode": 200,
+                        "ResponseModels": {
+                            "application/json": "Empty"
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "d56f52f0-a8cc-4b45-a38a-4729fc8bee5c"
+                }
+            }
+        },
+        "POSTMethod": {
+            "Type": "AWS::ApiGateway::Method",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "singleAPI"
+                },
+                "ResourceId": {
+                    "Ref": "firstResource"
+                },
+                "HttpMethod": "POST",
+                "AuthorizationType": "NONE",
+                "Integration": {
+                    "Type": "AWS",
+                    "IntegrationHttpMethod": "POST",
+                    "Uri": {
+                        "Fn::Join": [
+                            "",
+                            [
+                                "arn:aws:apigateway:",
+                                {
+                                    "Ref": "AWS::Region"
+                                },
+                                ":lambda:path/2015-03-31/functions/",
+                                {
+                                    "Ref": "Lamdafn1"
+                                },
+                                "/invocations"
+                            ]
+                        ]
+                    }
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "b1af314f-489d-4b03-8dd0-110427956c1f"
+                }
+            }
+        },
+        "RestApiDeployment": {
+            "Type": "AWS::ApiGateway::Deployment",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "singleAPI"
+                },
+                "StageName": {
+                    "Ref": "deploymentStageName"
+                }
+            },
+            "DependsOn": [
+                "GETMethod",
+                "POSTMethod"
+            ],
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "b48744a9-8773-4b56-b640-8e2126c75f3f"
+                }
+            }
+        }
+    }
+}

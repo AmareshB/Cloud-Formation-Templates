@@ -1,0 +1,285 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "1291d178-5c00-4bfd-9ac6-c964c8f7b64c": {
+                "size": {
+                    "width": 600,
+                    "height": 600
+                },
+                "position": {
+                    "x": 270,
+                    "y": -10
+                },
+                "z": 1,
+                "embeds": [
+                    "3f2d3442-cacd-4cea-8b6d-3e17ea3dd79b",
+                    "7ccb8a9e-823b-4134-aba2-d3b8debef298",
+                    "520e6192-0fce-4b14-a5c1-da788fc6d952"
+                ]
+            },
+            "7ccb8a9e-823b-4134-aba2-d3b8debef298": {
+                "size": {
+                    "width": 330,
+                    "height": 240
+                },
+                "position": {
+                    "x": 300,
+                    "y": 40
+                },
+                "z": 2,
+                "parent": "1291d178-5c00-4bfd-9ac6-c964c8f7b64c",
+                "embeds": [
+                    "950912de-c33b-4ccd-8b24-34c6709b1e83"
+                ],
+                "iscontainedinside": [
+                    "1291d178-5c00-4bfd-9ac6-c964c8f7b64c",
+                    "1291d178-5c00-4bfd-9ac6-c964c8f7b64c",
+                    "1291d178-5c00-4bfd-9ac6-c964c8f7b64c",
+                    "1291d178-5c00-4bfd-9ac6-c964c8f7b64c"
+                ]
+            },
+            "950912de-c33b-4ccd-8b24-34c6709b1e83": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 330,
+                    "y": 100
+                },
+                "z": 3,
+                "parent": "7ccb8a9e-823b-4134-aba2-d3b8debef298",
+                "embeds": [
+                    "4624706e-dc68-4120-9537-03e2cf7b28a7"
+                ],
+                "iscontainedinside": [
+                    "7ccb8a9e-823b-4134-aba2-d3b8debef298",
+                    "1291d178-5c00-4bfd-9ac6-c964c8f7b64c",
+                    "7ccb8a9e-823b-4134-aba2-d3b8debef298",
+                    "7ccb8a9e-823b-4134-aba2-d3b8debef298",
+                    "7ccb8a9e-823b-4134-aba2-d3b8debef298"
+                ]
+            },
+            "4624706e-dc68-4120-9537-03e2cf7b28a7": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 330,
+                    "y": 100
+                },
+                "z": 4,
+                "parent": "950912de-c33b-4ccd-8b24-34c6709b1e83",
+                "embeds": [],
+                "iscontainedinside": [
+                    "7ccb8a9e-823b-4134-aba2-d3b8debef298",
+                    "1291d178-5c00-4bfd-9ac6-c964c8f7b64c",
+                    "7ccb8a9e-823b-4134-aba2-d3b8debef298",
+                    "7ccb8a9e-823b-4134-aba2-d3b8debef298",
+                    "7ccb8a9e-823b-4134-aba2-d3b8debef298"
+                ]
+            },
+            "520e6192-0fce-4b14-a5c1-da788fc6d952": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 300,
+                    "y": 320
+                },
+                "z": 2,
+                "parent": "1291d178-5c00-4bfd-9ac6-c964c8f7b64c",
+                "embeds": [],
+                "iscontainedinside": [
+                    "1291d178-5c00-4bfd-9ac6-c964c8f7b64c",
+                    "1291d178-5c00-4bfd-9ac6-c964c8f7b64c",
+                    "1291d178-5c00-4bfd-9ac6-c964c8f7b64c"
+                ],
+                "dependson": [
+                    "4624706e-dc68-4120-9537-03e2cf7b28a7",
+                    "950912de-c33b-4ccd-8b24-34c6709b1e83"
+                ]
+            },
+            "3f2d3442-cacd-4cea-8b6d-3e17ea3dd79b": {
+                "size": {
+                    "width": 150,
+                    "height": 150
+                },
+                "position": {
+                    "x": 440,
+                    "y": 310
+                },
+                "z": 2,
+                "parent": "1291d178-5c00-4bfd-9ac6-c964c8f7b64c",
+                "embeds": [],
+                "iscontainedinside": [
+                    "1291d178-5c00-4bfd-9ac6-c964c8f7b64c",
+                    "1291d178-5c00-4bfd-9ac6-c964c8f7b64c"
+                ]
+            }
+        }
+    },
+    "Parameters": {
+        "TestParam": {
+            "Description": "Test param to choose dummy values",
+            "Type": "String",
+            "AllowedValues": [
+                "a",
+                "b",
+                "c",
+                "dummy"
+            ]
+        },
+        "ResourcePath": {
+            "Description": "Enter the name or path of the new resource",
+            "Type": "String"
+        }
+    },
+    "Resources": {
+        "getSongs": {
+            "Type": "AWS::ApiGateway::RestApi",
+            "Properties": {
+                "Name": "Songs API",
+                "Description": "basic api from cloud formation template"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "1291d178-5c00-4bfd-9ac6-c964c8f7b64c"
+                }
+            }
+        },
+        "songsResource": {
+            "Type": "AWS::ApiGateway::Resource",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "getSongs"
+                },
+                "ParentId": {
+                    "Fn::GetAtt": [
+                        "getSongs",
+                        "RootResourceId"
+                    ]
+                },
+                "PathPart": "allSongs"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "7ccb8a9e-823b-4134-aba2-d3b8debef298"
+                }
+            }
+        },
+        "songsGETMock": {
+            "Type": "AWS::ApiGateway::Method",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "getSongs"
+                },
+                "ResourceId": {
+                    "Ref": "songsResource"
+                },
+                "HttpMethod": "GET",
+                "AuthorizationType": "NONE",
+                "Integration": {
+                    "Type": "AWS",
+                    "IntegrationHttpMethod": "POST",
+                    "Uri": {
+                        "Fn::Join": [
+                            "",
+                            [
+                                "arn:aws:apigateway:",
+                                {
+                                    "Ref": "AWS::Region"
+                                },
+                                ":lambda:path/2015-03-31/functions/",
+                                "arn:aws:lambda:us-east-2:456214169279:function:test-am",
+                                "/invocations"
+                            ]
+                        ]
+                    }
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "4624706e-dc68-4120-9537-03e2cf7b28a7"
+                }
+            }
+        },
+        "songsPOST": {
+            "Type": "AWS::ApiGateway::Method",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "getSongs"
+                },
+                "ResourceId": {
+                    "Ref": "songsResource"
+                },
+                "HttpMethod": "POST",
+                "AuthorizationType": "NONE",
+                "Integration": {
+                    "Type": "AWS",
+                    "IntegrationHttpMethod": "POST",
+                    "Uri": {
+                        "Fn::Join": [
+                            "",
+                            [
+                                "arn:aws:apigateway:",
+                                {
+                                    "Ref": "AWS::Region"
+                                },
+                                ":lambda:path/2015-03-31/functions/",
+                                "arn:aws:lambda:us-east-2:456214169279:function:test-am",
+                                "/invocations"
+                            ]
+                        ]
+                    }
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "950912de-c33b-4ccd-8b24-34c6709b1e83"
+                }
+            }
+        },
+        "songResource": {
+            "Type": "AWS::ApiGateway::Resource",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "getSongs"
+                },
+                "ParentId": {
+                    "Fn::GetAtt": [
+                        "getSongs",
+                        "RootResourceId"
+                    ]
+                },
+                "PathPart": {"Ref": "ResourcePath"}
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "3f2d3442-cacd-4cea-8b6d-3e17ea3dd79b"
+                }
+            }
+        },
+        "RestApiDeployment": {
+            "Type": "AWS::ApiGateway::Deployment",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "getSongs"
+                },
+                "StageName": "dev1"
+            },
+            "DependsOn": [
+                "songsGETMock",
+                "songsPOST"
+            ],
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "520e6192-0fce-4b14-a5c1-da788fc6d952"
+                }
+            }
+        }
+    }
+}

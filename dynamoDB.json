@@ -1,0 +1,35 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Resources": {
+        "DBSample": {
+            "Type": "AWS::DynamoDB::Table",
+            "Properties": {
+                "AttributeDefinitions":[
+                    {
+                        "AttributeName" : "Field1",
+                        "AttributeType" : "S"   
+                    },
+                    {
+                        "AttributeName" : "Field2",
+                        "AttributeType" : "S"   
+                    }
+                ],
+                "KeySchema":[
+                    {
+                        "AttributeName" : "Field1",
+                        "KeyType" : "HASH"   
+                    },
+                    {
+                        "AttributeName" : "Field2",
+                        "KeyType" : "RANGE"   
+                    }
+                ],
+                "ProvisionedThroughput" : {
+                  "ReadCapacityUnits" : "5",
+                  "WriteCapacityUnits" : "5"
+                },
+                "TableName" : "DB-CloudFormSample"
+            }
+        }
+    }
+}
