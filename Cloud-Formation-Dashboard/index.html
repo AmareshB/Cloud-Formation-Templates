@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.181.0.min.js"></script>
+
+<body>
+
+  <div ng-app="myApp" ng-controller="myCtrl">
+
+    <h3>Stack Details</h3> Stack Name: <input type="text" ng-model="stackName"><br>
+    <h3>REST API details</h3><br> RestAPI name: <input type="text" ng-model="restAPIName"><br> RestAPI Description: <input type="text" ng-model="restAPIDescription"><br>
+    <h3>Resource Details</h3><br> Path of the Resource: <input type="text" ng-model="PathPart"><br> Type of the method: <select class="" name="Method" ng-model="methodType">
+  <option value="GET">GET</option>
+  <option value="POST">POST</option>
+</select>
+    <br> Select the Lambda: <select class="" name="Lambdafn" ng-model="lambdaARN">
+  <option value="arn:aws:lambda:us-east-2:456214169279:function:test-am">test-am</option>
+  <option value="arn:aws:lambda:us-east-2:456214169279:function:queryData">queryData</option>
+</select>
+    <br>
+    <h3>Deploment Details</h3><br> Name of the Deployment Stage <input type="text" ng-model="deploymentStageName"><br>
+
+    <br>
+    <input type="button" name="Enter" ng-click="createStacks()" value="Create Stack">
+    <br>
+    <h5>
+	Response after creating Stacks : {{respData}}
+</h5>
+    <br>
+
+  </div>
+
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
